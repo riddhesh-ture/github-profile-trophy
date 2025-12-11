@@ -73,7 +73,7 @@ async function app(req: Request): Promise<Response> {
         </form>
       </div>
       <script>
-        const base = "https://github-profile-trophy-live-a68h8tgg4-time-travellers-projects.vercel.app";
+        const base = "https://trophy.riddheshture.me";
         const button = document.querySelector("button");
         const input = document.querySelector("input");
         const temporarySpan = document.querySelector("#temporary-span");

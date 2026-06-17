@@ -20,8 +20,7 @@ import { requestGithubData } from "./request.ts";
 
 // Need to be here - Exporting from another file makes array of null
 export const TOKENS = [
-  Deno.env.get("GH_TOKEN_1"),
-  Deno.env.get("GH_TOKEN_2"),
+  Deno.env.get("GH_TOKEN_1")
 ].filter(token => token !== undefined && token !== "");
 
 export class GithubApiService extends GithubRepository {
